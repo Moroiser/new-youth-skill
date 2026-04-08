@@ -2,35 +2,41 @@
   <img src="assets/logo.png" alt="New Youth La Jeunesse" width="400"/>
 </p>
 
-# New Youth.skill
+<h1 align="center">New Youth.skill</h1>
 
 <p align="center">
 
 > *"Youth to society is like fresh, active cells in the human body. Metabolism — stale and decaying elements are constantly being naturally eliminated, making room for the fresh and active."*
 > — Chen Duxiu, "A Call to Youth" (1915)
 
+</p>
+
 <p align="center">🌟 *"Youth is like early spring, like the morning sun, like a bud about to bloom, like a blade newly sharpened — the most precious time of life."*</p>
 
+<p align="center">
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
+</p>
 
-*To build a Youth of ourselves, a Youth of our families, a Youth of our nation.*
+<p align="center"><i>To build a Youth of ourselves, a Youth of our families, a Youth of our nation.</i></p>
 
 ---
 
 <div align="center">
 
-[Why This Exists](#why-this-exists) · [Six Standards](#six-standards) · [Core Features](#core-features) · [Install](#install) · [Usage](#usage) · [Demo](#demo) · [Project Structure](#project-structure)
+[Why This Exists](#why-this-exists) · [Six Standards](#six-standards) · [Core Features](#core-features) · [Install](#install) · [Usage](#usage) · [Demo](#demo) · [Youth Index](#youth-index) · [Project Structure](#project-structure)
 
 </div>
 
 ---
 
-Based on *La Jeunesse* (New Youth), founded by Chen Duxiu in Shanghai, 1915 — the journal that championed Democracy and Science during China's New Culture Movement.
+<p align="center">Based on <i>La Jeunesse</i> (New Youth), founded by Chen Duxiu in Shanghai, 1915 — the journal that championed Democracy and Science during China's New Culture Movement.</p>
 
+<p align="center">
 [English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Español](README_ES.md)
+</p>
 
 ---
 

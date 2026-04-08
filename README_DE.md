@@ -2,35 +2,41 @@
   <img src="assets/logo.png" alt="New Youth La Jeunesse" width="400"/>
 </p>
 
-# Neue Jugend.skill
+<h1 align="center">Neue Jugend.skill</h1>
 
 <p align="center">
 
 > *"Die Jugend für die Gesellschaft ist wie frische, aktive Zellen im menschlichen Körper. Der Stoffwechsel — veraltete und faule Elemente werden ständig auf natürliche Weise eliminiert und machen Platz für das Frische und Aktive."*
 > — Chen Duxiu, "Aufruf an die Jugend" (1915)
 
+</p>
+
 <p align="center">🌟 *"Die Jugend ist wie der frühe Frühling, die aufgehende Sonne, die sprossenden Blumen, ein frisch geschliffenes Schwert — die kostbarste Zeit des Lebens."*</p>
 
+<p align="center">
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
+</p>
 
-*Einen Youth von uns selbst schaffen, einen Youth unserer Familien, einen Youth unserer Nation.*
+<p align="center"><i>Einen Youth von uns selbst schaffen, einen Youth unserer Familien, einen Youth unserer Nation.</i></p>
 
 ---
 
 <div align="center">
 
-[Warum gibt es das?](#warum-gibt-es-das) · [Sechs Standards](#sechs-standards) · [Kernfunktionen](#kernfunktionen) · [Installation](#installation) · [Verwendung](#verwendung) · [Demo](#demo) · [Projektstruktur](#projektstruktur)
+[Warum gibt es das?](#warum-gibt-es-das) · [Sechs Standards](#sechs-standards) · [Kernfunktionen](#kernfunktionen) · [Installation](#installation) · [Verwendung](#verwendung) · [Demo](#demo) · [Neue-Jugend-Index](#neue-jugend-index) · [Projektstruktur](#projektstruktur)
 
 </div>
 
 ---
 
-Basierend auf der Zeitschrift *La Jeunesse* (Neue Jugend), gegründet von Chen Duxiu 1915 in Shanghai — die Stimme der chinesischen Neuen Kulturbewegung, die einer Generation Demokratie und Wissenschaft brachte.
+<p align="center">Basierend auf der Zeitschrift <i>La Jeunesse</i> (Neue Jugend), gegründet von Chen Duxiu 1915 in Shanghai — die Stimme der chinesischen Neuen Kulturbewegung, die einer Generation Demokratie und Wissenschaft brachte.</p>
 
+<p align="center">
 [English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Español](README_ES.md)
+</p>
 
 ---
 
@@ -52,7 +58,7 @@ Kein Megafon für Indoktrination — sondern ein Führer für unabhängiges Denk
 |:---|:---|:---|:---|
 | 1 | **Autonom** | Denke selbst, folge nicht blind | Sklaverei der Meinung |
 | 2 | **Fortschrittlich** | Umarme Veränderung, entwickle dich mit der Zeit | Starre Konservatismus |
-| 3 | **Unternehmerisch** | Erg-reifeInitiative, schmiede deinen Weg | Passiver Rückzug |
+| 3 | **Unternehmerisch** | Ergreife Initiative, schmiede deinen Weg | Passiver Rückzug |
 | 4 | **Global** | Sieh das große Ganze, Herz für alle | Provinzialismus |
 | 5 | **Pragmatisch** | Taten sprechen lauter als Worte | Leeres Gerede |
 | 6 | **Wissenschaftlich** | Suche Wahrheit durch Fakten | Wilde Spekulation |
@@ -121,26 +127,26 @@ Die Skill erwacht, wenn du fragst:
 **Persönlichkeitsbewertung:**
 
 ```
-Nutzer    ❯ Bin ich dieser Zeit würdig? Ich schwanke zwischen Stabilität und Unternehmertum.
+Nutzer         ❯ Bin ich dieser Zeit würdig? Ich schwanke zwischen Stabilität und Unternehmertum.
 
-Neue Jugend ❯ Freund, dass du diese Frage stellst, markiert den Beginn des Erwachens.
-             Nutzen wir die sechs Standards als Spiegel, um dein wahres Ich zu sehen.
-             Bitte bewerte dich auf sechs Dimensionen (1-5):
-             ① Autonom — Akzeptierst du oft die Meinungen anderer als deine eigenen?
-             ② Fortschrittlich — Umarmst du Veränderung oder klammerst du dich ans Alte?
-             ③ Unternehmerisch — Wartest du oder ergreifst du Initiative?
-             …
+Neue Jugend   ❯ Freund, dass du diese Frage stellst, markiert den Beginn des Erwachens.
+               Nutzen wir die sechs Standards als Spiegel, um dein wahres Ich zu sehen.
+               Bitte bewerte dich auf sechs Dimensionen (1-5):
+               ① Autonom — Akzeptierst du oft die Meinungen anderer als deine eigenen?
+               ② Fortschrittlich — Umarmst du Veränderung oder klammerst du dich ans Alte?
+               ③ Unternehmerisch — Wartest du oder ergreifst du Initiative?
+               …
 ```
 
 **Entscheidungsleitfaden:**
 
 ```
-Nutzer    ❯ Angesichts der Strömungen unserer Zeit, wohin soll ich gehen?
+Nutzer         ❯ Angesichts der Strömungen unserer Zeit, wohin soll ich gehen?
 
-Neue Jugend ❯ Freund, was kann der Einzelne angesichts der Strömungen unserer Zeit tun?
-             Die Sechs-Schritte-Methode wird den Nebel lichten:
-             Schritt eins — Autonom: Was begehrt dein Herz wirklich?
-             Nicht Gehalt, nicht Status — was für ein Mensch willst du werden?
+Neue Jugend   ❯ Freund, was kann der Einzelne angesichts der Strömungen unserer Zeit tun?
+               Die Sechs-Schritte-Methode wird den Nebel lichten:
+               Schritt eins — Autonom: Was begehrt dein Herz wirklich?
+               Nicht Gehalt, nicht Status — was für ein Mensch willst du werden?
 ```
 
 ---
@@ -182,7 +188,7 @@ Neue Jugend ❯ Freund, was kann der Einzelne angesichts der Strömungen unserer
 
 **research/ vs references/**:
 - `research/` ist "Erz" — Originalquellen, PDFs, historische Quellen (Eingabe)
-- `references/` ist "Gold" — verfeinertes strukturiertes Material (KI referenziert运行时)
+- `references/` ist "Gold" — verfeinertes strukturiertes Material (KI referenziert zur Laufzeit)
 
 ```
 new-youth-skill/

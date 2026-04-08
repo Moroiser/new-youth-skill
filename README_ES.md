@@ -2,35 +2,41 @@
   <img src="assets/logo.png" alt="New Youth La Jeunesse" width="400"/>
 </p>
 
-# Nuevo Juventud.skill
+<h1 align="center">Nuevo Juventud.skill</h1>
 
 <p align="center">
 
 > *"La juventud para la sociedad es como células frescas y activas en el cuerpo humano. El metabolismo — los elementos rancios y decadentes se eliminan constantemente de forma natural, dejando espacio para los frescos y activos."*
 > — Chen Duxiu, "A la Juventud" (1915)
 
+</p>
+
 <p align="center">🌟 *"La juventud es como la primavera temprana, el sol naciente, las flores que brotan, una espada recién afilada — el período más precioso de la vida."*</p>
 
+<p align="center">
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
+</p>
 
-*Crear un Youth de nosotros mismos, un Youth de nuestras familias, un Youth de nuestra nación.*
+<p align="center"><i>Crear un Youth de nosotros mismos, un Youth de nuestras familias, un Youth de nuestra nación.</i></p>
 
 ---
 
 <div align="center">
 
-[¿Por qué existe esto?](#por-qué-existe-esto) · [Seis Estándares](#seis-estándares) · [Funciones principales](#funciones-principales) · [Instalación](#instalación) · [Uso](#uso) · [Demo](#demo) · [Estructura del proyecto](#estructura-del-proyecto)
+[¿Por qué existe esto?](#por-qué-existe-esto) · [Seis Estándares](#seis-estándares) · [Funciones principales](#funciones-principales) · [Instalación](#instalación) · [Uso](#uso) · [Demo](#demo) · [Índice de Nueva Juventud](#índice-de-nueva-juventud) · [Estructura del proyecto](#estructura-del-proyecto)
 
 </div>
 
 ---
 
-Basada en la revista *La Jeunesse* (Nueva Juventud), fundada por Chen Duxiu en Shanghai en 1915 — la voz del Movimiento de la Nueva Cultura chino, que trajo Democracia y Ciencia a toda una generación.
+<p align="center">Basada en la revista <i>La Jeunesse</i> (Nueva Juventud), fundada por Chen Duxiu en Shanghai en 1915 — la voz del Movimiento de la Nueva Cultura chino, que trajo Democracia y Ciencia a toda una generación.</p>
 
-[English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · **Español**
+<p align="center">
+[English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Español](README_ES.md)
+</p>
 
 ---
 
@@ -110,7 +116,7 @@ git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skil
 La skill despierta cuando preguntas:
 - "¿Soy digno de esta época?"
 - "¿Cómo elegir ante una encrucijada?"
-- "¿Cómo vivir sin辜负 esta vida?"
+- "¿Cómo vivir sin负累 esta vida?"
 - "¿Esta afirmación es válida? ¿Esta declaración es creíble?"
 - "Quiero convertirme en alguien más remarquable"
 
@@ -121,26 +127,26 @@ La skill despierta cuando preguntas:
 **Evaluación de personalidad:**
 
 ```
-Usuario    ❯ ¿Soy digno de esta época? Vacilo entre estabilidad y emprendimiento.
+Usuario           ❯ ¿Soy digno de esta época? Vacilo entre estabilidad y emprendimiento.
 
-Nueva Juventud ❯ Amigo, que hagas esta pregunta marca el comienzo del despertar.
-             Usemos los seis estándares como espejo para ver tu verdadero yo.
-             Por favor, evalúate en seis dimensiones (1-5):
-             ① Autónomo — ¿Aceptas a menudo las opiniones de otros como propias?
-             ② Progresista — ¿Abrazas el cambio o te aferras a lo antiguo?
-             ③ Emprendedor — ¿Esperas o tomas la iniciativa?
-             …
+Nueva Juventud   ❯ Amigo, que hagas esta pregunta marca el comienzo del despertar.
+                 Usemos los seis estándares como espejo para ver tu verdadero yo.
+                 Por favor, evalúate en seis dimensiones (1-5):
+                 ① Autónomo — ¿Aceptas a menudo las opiniones de otros como propias?
+                 ② Progresista — ¿Abrazas el cambio o te aferras a lo antiguo?
+                 ③ Emprendedor — ¿Esperas o tomas la iniciativa?
+                 …
 ```
 
 **Guía de decisión:**
 
 ```
-Usuario    ❯ Ante las corrientes de nuestra época, ¿dónde debo ir?
+Usuario           ❯ Ante las corrientes de nuestra época, ¿dónde debo ir?
 
-Nueva Juventud ❯ Amigo, ¿qué puede hacer el individuo ante las corrientes de nuestra época?
-             El método de seis pasos disipará la niebla:
-             Paso uno — Autónomo: ¿Qué desea tu corazón verdaderamente?
-             No el salario, no el estatus — ¿qué tipo de persona quieres convertirte?
+Nueva Juventud   ❯ Amigo, ¿qué puede hacer el individuo ante las corrientes de nuestra época?
+                 El método de seis pasos disipará la niebla:
+                 Paso uno — Autónomo: ¿Qué desea tu corazón verdaderamente?
+                 No el salario, no el estatus — ¿qué tipo de persona quieres convertirte?
 ```
 
 ---
@@ -182,7 +188,7 @@ Nueva Juventud ❯ Amigo, ¿qué puede hacer el individuo ante las corrientes de
 
 **research/ vs references/**:
 - `research/` es "mineral" —文献 original, PDFs, fuentes históricas (entrada)
-- `references/` es "oro" — contenido estructurado refinado (la IA referencia运行时)
+- `references/` es "oro" — contenido estructurado refinado (la IA referencia en ejecución)
 
 ```
 new-youth-skill/

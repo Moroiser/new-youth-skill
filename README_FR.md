@@ -2,35 +2,41 @@
   <img src="assets/logo.png" alt="New Youth La Jeunesse" width="400"/>
 </p>
 
-# La Jeunesse.skill
+<h1 align="center">La Jeunesse.skill</h1>
 
 <p align="center">
 
 > *"La jeunesse pour la société, c'est comme des cellules fraîches et actives dans le corps humain. Le métabolisme — les éléments rabougris et corrompus sont constamment éliminés naturellement, laissant place au frais et à l'actif."*
 > — Chen Duxiu, éditorial du magazine *La Jeunesse* (1915)
 
+</p>
+
 <p align="center">🌟 *"La jeunesse, c'est le printemps précoce, le soleil levant, les fleurs qui bourgeonnent, une lame fraîchement aiguisée — la période la plus précieuse de la vie."*</p>
 
+<p align="center">
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
+</p>
 
-*Créer un Youth de nous-mêmes, un Youth de nos familles, un Youth de notre nation.*
+<p align="center"><i>Créer un Youth de nous-mêmes, un Youth de nos familles, un Youth de notre nation.</i></p>
 
 ---
 
 <div align="center">
 
-[Pourquoi cela existe ?](#pourquoi-cela-existe) · [Six Normes](#six-normes) · [Fonctions principales](#fonctions-principales) · [Installation](#installation) · [Utilisation](#utilisation) · [Démo](#démo) · [Structure du projet](#structure-du-projet)
+[Pourquoi cela existe ?](#pourquoi-cela-existe) · [Six Normes](#six-normes) · [Fonctions principales](#fonctions-principales) · [Installation](#installation) · [Utilisation](#utilisation) · [Démo](#démo) · [Indice de Nouvelle Jeunesse](#indice-de-nouvelle-jeunesse) · [Structure du projet](#structure-du-projet)
 
 </div>
 
 ---
 
-Basée sur le magazine *La Jeunesse* (Nouvelle Jeunesse), fondé par Chen Duxiu en 1915 à Shanghai — la voix du Mouvement de la Nouvelle Culture chinois qui a apporté Démocratie et Science à toute une génération.
+<p align="center">Basée sur le magazine <i>La Jeunesse</i> (Nouvelle Jeunesse), fondé par Chen Duxiu en 1915 à Shanghai — la voix du Mouvement de la Nouvelle Culture chinois qui a apporté Démocratie et Science à toute une génération.</p>
 
+<p align="center">
 [English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Español](README_ES.md)
+</p>
 
 ---
 
@@ -63,8 +69,8 @@ Pas un mégaphone pour l'endoctrinement — mais un guide pour la pensée indép
 
 | Fonction | Question vitale | Ce qu'elle fait |
 |:---|:---|:---|
-| **Évaluation de personnalité** | "Suis-je digne de cette époque ?" | Analyse六维 |
-| **Guide décisionnel** | "Quel chemin prendre ?" | 六步探寻 |
+| **Évaluation de personnalité** | "Suis-je digne de cette époque ?" | Analyse六dimensions |
+| **Guide décisionnel** | "Quel chemin prendre ?" | 六étapes d'exploration |
 | **Examen des观点** | "Cette affirmation est-elle valide ?" | Audit de logique |
 | **Pratique quotidienne** | "Que faire aujourd'hui ?" | Unité savoir-action |
 | **Expansion desperpectives** | "Autres points de vue ?" | Briser l'自我迷 |
@@ -121,33 +127,33 @@ La skill s'éveille quand vous demandez :
 **Évaluation de personnalité :**
 
 ```
-Utilisateur ❯ Suis-je digne de cette époque ? Je hésite entre stabilité et entrepreneuriat.
+Utilisateur         ❯ Suis-je digne de cette époque ? Je hésite entre stabilité et entrepreneuriat.
 
-Nouvelle Jeunesse ❯ Ami, que tu poses cette question marque le début de l'éveil.
-             Utilisons les six normes comme miroir pour voir ton vrai toi.
-             Note-toi sur six dimensions (1-5) :
-             ① Autonome — Suis-tu souvent les opinions des autres pour les tiennes ?
-             ② Progressiste — Embras-tu le changement ou t'accroches-tu à l'ancien ?
-             ③ Entreprenant — Attends-tu ou prends-tu l'initiative ?
-             …
+Nouvelle Jeunesse   ❯ Ami, que tu poses cette question marque le début de l'éveil.
+                    Utilisons les six normes comme miroir pour voir ton vrai toi.
+                    Note-toi sur six dimensions (1-5) :
+                    ① Autonome — Suis-tu souvent les opinions des autres pour les tiennes ?
+                    ② Progressiste — Embras-tu le changement ou t'accroches-tu à l'ancien ?
+                    ③ Entreprenant — Attends-tu ou prends-tu l'initiative ?
+                    …
 ```
 
 **Guide décisionnel :**
 
 ```
-Utilisateur ❯ Face aux courants de notre époque, où dois-je aller ?
+Utilisateur         ❯ Face aux courants de notre époque, où dois-je aller ?
 
-Nouvelle Jeunesse ❯ Ami, que peut faire l'individu face aux courants de notre époque ?
-             La méthode en six étapes dissipera le brouillard :
-             Étape une — Autonome : Que desire ton cœur véritablement ?
-             Pas le salaire, pas le statut — quel genre de personne veux-tu devenir ?
+Nouvelle Jeunesse   ❯ Ami, que peut faire l'individu face aux courants de notre époque ?
+                    La méthode en six étapes dissipera le brouillard :
+                    Étape une — Autonome : Que désire ton cœur véritablement ?
+                    Pas le salaire, pas le statut — quel genre de personne veux-tu devenir ?
 ```
 
 ---
 
 ## Indice de Nouvelle Jeunesse
 
-**Auto-évaluation六维** (1-5 chacun) :
+**Auto-évaluation六dimensions** (1-5 chacun) :
 
 | Dimension | 1 | 3 | 5 |
 |:---|:---|:---|:---|

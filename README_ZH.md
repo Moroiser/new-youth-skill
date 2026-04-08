@@ -2,21 +2,25 @@
   <img src="assets/logo.png" alt="New Youth La Jeunesse" width="400"/>
 </p>
 
-# 新青年.skill
+<h1 align="center">新青年.skill</h1>
 
 <p align="center">
 
 > *"青年之于社会，犹新鲜活泼细胞之在人身。新陈代谢，陈腐朽败者无时不在天然淘汰之途，与新鲜活泼者以空间之位置及时间之生命。"*
 > — 陈独秀《敬告青年》（1915）
 
+</p>
+
 <p align="center">🌟 *"青年如初春，如朝日，如百卉之萌动，如利刃之新发于硎，人生最可宝贵之时期也。"*</p>
 
+<p align="center">
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
+</p>
 
-*以青春之我，创建青春之家庭，青春之国家，青春之民族。*
+<p align="center"><i>以青春之我，创建青春之家庭，青春之国家，青春之民族。</i></p>
 
 ---
 
@@ -28,9 +32,11 @@
 
 ---
 
-基于1915年陈独秀创办的《新青年》杂志——新文化运动之号角，向一代人传播民主与科学。
+<p align="center">基于1915年陈独秀创办的《新青年》杂志——新文化运动之号角，向一代人传播民主与科学。</p>
 
+<p align="center">
 [English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Español](README_ES.md)
+</p>
 
 ---
 
@@ -172,8 +178,6 @@ git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skil
 
 ## 项目结构
 
-本项目遵循 [AgentSkills](https://agentskills.io) 开放标准：
-
 | 文件夹 | 用途 | 使用方式 |
 |:---|:---|:---|
 | **SKILL.md** | 核心指令集 | AI 自动加载 |
@@ -182,7 +186,6 @@ git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skil
 | **commands/** | 手动命令入口 | 用户主动调用 |
 | **scripts/** | 辅助脚本（可选） | 工具 |
 | **assets/** | README 展示用图片 | 自动 |
-| **docs/** | 附加说明文档 | 人类阅读 |
 
 **research/ vs references/**：
 - `research/` 是"矿石"——原始文献、历史资料（输入）
