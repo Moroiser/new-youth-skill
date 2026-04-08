@@ -35,7 +35,7 @@
 <p align="center">基于1915年陈独秀创办的《新青年》杂志——新文化运动之号角，向一代人传播民主与科学。</p>
 
 <p align="center">
-[English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Español](README_ES.md)
+<a href="README.md">English</a> · <a href="README_ZH.md">中文</a> · <a href="README_RU.md">Русский</a> · <a href="README_JA.md">日本語</a> · <a href="README_KO.md">한국어</a> · <a href="README_FR.md">Français</a> · <a href="README_DE.md">Deutsch</a> · <a href="README_ES.md">Español</a>
 </p>
 
 ---

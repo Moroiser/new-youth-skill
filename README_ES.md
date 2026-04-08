@@ -35,7 +35,7 @@
 <p align="center">Basada en la revista <i>La Jeunesse</i> (Nueva Juventud), fundada por Chen Duxiu en Shanghai en 1915 — la voz del Movimiento de la Nueva Cultura chino, que trajo Democracia y Ciencia a toda una generación.</p>
 
 <p align="center">
-[English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Español](README_ES.md)
+<a href="README.md">English</a> · <a href="README_ZH.md">中文</a> · <a href="README_RU.md">Русский</a> · <a href="README_JA.md">日本語</a> · <a href="README_KO.md">한국어</a> · <a href="README_FR.md">Français</a> · <a href="README_DE.md">Deutsch</a> · <a href="README_ES.md">Español</a>
 </p>
 
 ---
