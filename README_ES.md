@@ -14,10 +14,10 @@
 <p align="center">🌟 *"La juventud es como la primavera temprana, el sol naciente, las flores que brotan, una espada recién afilada — el período más precioso de la vida."*</p>
 
 <p align="center">
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+<a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.9%2B-blue.svg" alt="Python 3.9+"/></a>
+<a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-Skill-purple.svg" alt="Claude Code"/></a>
+<a href="https://github.com/anthropics/agent-skill-standard"><img src="https://img.shields.io/badge/AgentSkills-Standard-green.svg" alt="AgentSkills"/></a>
 </p>
 
 <p align="center"><i>Crear un Youth de nosotros mismos, un Youth de nuestras familias, un Youth de nuestra nación.</i></p>
@@ -116,7 +116,7 @@ git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skil
 La skill despierta cuando preguntas:
 - "¿Soy digno de esta época?"
 - "¿Cómo elegir ante una encrucijada?"
-- "¿Cómo vivir sin负累 esta vida?"
+- "¿Cómo vivir sin carga esta vida?"
 - "¿Esta afirmación es válida? ¿Esta declaración es creíble?"
 - "Quiero convertirme en alguien más remarquable"
 
@@ -187,7 +187,7 @@ Nueva Juventud   ❯ Amigo, ¿qué puede hacer el individuo ante las corrientes 
 | **assets/** | Imágenes | Automático |
 
 **research/ vs references/**:
-- `research/` es "mineral" —文献 original, PDFs, fuentes históricas (entrada)
+- `research/` es "mineral" — documentos originales, PDFs, fuentes históricas (entrada)
 - `references/` es "oro" — contenido estructurado refinado (la IA referencia en ejecución)
 
 ```

@@ -14,10 +14,10 @@
 <p align="center">🌟 *"La jeunesse, c'est le printemps précoce, le soleil levant, les fleurs qui bourgeonnent, une lame fraîchement aiguisée — la période la plus précieuse de la vie."*</p>
 
 <p align="center">
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+<a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.9%2B-blue.svg" alt="Python 3.9+"/></a>
+<a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-Skill-purple.svg" alt="Claude Code"/></a>
+<a href="https://github.com/anthropics/agent-skill-standard"><img src="https://img.shields.io/badge/AgentSkills-Standard-green.svg" alt="AgentSkills"/></a>
 </p>
 
 <p align="center"><i>Créer un Youth de nous-mêmes, un Youth de nos familles, un Youth de notre nation.</i></p>
@@ -69,12 +69,12 @@ Pas un mégaphone pour l'endoctrinement — mais un guide pour la pensée indép
 
 | Fonction | Question vitale | Ce qu'elle fait |
 |:---|:---|:---|
-| **Évaluation de personnalité** | "Suis-je digne de cette époque ?" | Analyse六dimensions |
-| **Guide décisionnel** | "Quel chemin prendre ?" | 六étapes d'exploration |
-| **Examen des观点** | "Cette affirmation est-elle valide ?" | Audit de logique |
+| **Évaluation de personnalité** | "Suis-je digne de cette époque ?" | Analyse à six dimensions |
+| **Guide décisionnel** | "Quel chemin prendre ?" | Six étapes d'exploration |
+| **Examen des points de vue** | "Cette affirmation est-elle valide ?" | Audit de logique |
 | **Pratique quotidienne** | "Que faire aujourd'hui ?" | Unité savoir-action |
-| **Expansion desperpectives** | "Autres points de vue ?" | Briser l'自我迷 |
-| **Mise en œuvre des行动** | "Comment exécuter ?" | De l'idée à l'action |
+| **Expansion des perspectives** | "Autres points de vue ?" | Briser l'auto-illusion |
+| **Mise en œuvre des actions** | "Comment exécuter ?" | De l'idée à l'action |
 
 ---
 
@@ -116,7 +116,7 @@ git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skil
 La skill s'éveille quand vous demandez :
 - "Suis-je digne de cette époque ?"
 - "Comment choisir face à un embranchement ?"
-- "Comment vivre sans辜负 cette vie ?"
+- "Comment vivre sans gaspiller cette vie ?"
 - "Cette affirmation est-elle valide ? Cette déclaration est-elle crédible ?"
 - "Je veux devenir quelqu'un de plus remarquable"
 
@@ -153,7 +153,7 @@ Nouvelle Jeunesse   ❯ Ami, que peut faire l'individu face aux courants de notr
 
 ## Indice de Nouvelle Jeunesse
 
-**Auto-évaluation六dimensions** (1-5 chacun) :
+**Auto-évaluation à six dimensions** (1-5 chacun) :
 
 | Dimension | 1 | 3 | 5 |
 |:---|:---|:---|:---|
@@ -183,12 +183,12 @@ Nouvelle Jeunesse   ❯ Ami, que peut faire l'individu face aux courants de notr
 | **research/** | Matières premières (textes originaux, documents historiques) | Pour l'étude humaine |
 | **references/** | Contenu structuré raffiné | L'IA référence au besoin |
 | **commands/** | Point d'entrée manuel | L'utilisateur invoque |
-| **scripts/** | Scripts辅助 (optionnel) | Outils |
+| **scripts/** | Scripts optionnels | Outils |
 | **assets/** | Images | Automatique |
 
 **research/ vs references/** :
-- `research/` c'est le "minerai" —文献 originale, PDFs, sources historiques (entrée)
-- `references/` c'est l'"or" — contenu structuré raffiné (l'IA référence à执行時)
+- `research/` c'est le "minerai" — documents originaux, PDFs, sources historiques (entrée)
+- `references/` c'est l'"or" — contenu structuré raffiné (l'IA référence lors de l'exécution)
 
 ```
 new-youth-skill/
@@ -196,7 +196,7 @@ new-youth-skill/
 ├── research/                    # Matières premières
 ├── references/                   # Références structurées
 ├── commands/                    # Point d'entrée
-├── scripts/                     # Scripts辅助
+├── scripts/                     # Scripts optionnels
 ├── assets/                      # Images
 └── README.md (8 langues)
 ```

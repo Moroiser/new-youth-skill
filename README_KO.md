@@ -6,18 +6,18 @@
 
 <p align="center">
 
-> *"사회에 있어서 청년은 마치 인간의 몸에서 신선하고 활력 있는 세포와 같다. 신진대사는 천태朽败者는 시시각각 자연적으로 도태되며, 신선하고 활력 있는 자에게 공간적 위치와 시간적 생명을 제공한다."*
+> *"사회에 있어서 청년은 마치 인간의 몸에서 신선하고 활력 있는 세포와 같다. 신진대사 — 낡고 썩은 요소들은 끊임없이 자연적으로 도태되며, 신선하고 활력 있는 자에게 공간적 위치와 시간적 생명을 제공한다."*
 > — 천둥시우, 『청년에게 고함』(1915)
 
 </p>
 
-<p align="center">🌟 *"청년은 초춘(初春)과 같고, 아침해와 같으며, 만물이 움트는 것과 같고, 숫돌에 닦인 칼날과 같다. 인생에서 가장 보배로운 시기이다."*</p>
+<p align="center">🌟 *"청년은 초봄과 같고, 아침 해와 같으며, 만물이 움트는 것과 같고, 숫돌에 닦인 칼날과 같다. 인생에서 가장 보배로운 시기이다."*</p>
 
 <p align="center">
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+<a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.9%2B-blue.svg" alt="Python 3.9+"/></a>
+<a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-Skill-purple.svg" alt="Claude Code"/></a>
+<a href="https://github.com/anthropics/agent-skill-standard"><img src="https://img.shields.io/badge/AgentSkills-Standard-green.svg" alt="AgentSkills"/></a>
 </p>
 
 <p align="center"><i>청춘의 나를 가지라, 청춘의 가정을 창조하라, 청춘의 국가를 건설하라.</i></p>
@@ -32,7 +32,7 @@
 
 ---
 
-<p align="center">천둥시우가 1915년 상하이에 창간한 『La Jeunesse』(신 청년)지에 기반 —— 중국 신문화운동의 기수이며, 한 세대에 민주와 과학을 전파했다.</p>
+<p align="center">1915년 천둥시우가 상하이에 창간한 『La Jeunesse』(신 청년)지에 기반 —— 중국 신문화운동의 기수이며, 한 세대에 민주와 과학을 전파했다.</p>
 
 <p align="center">
 [English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Español](README_ES.md)
@@ -44,8 +44,8 @@
 
 **시대의 폐단：**
 - 🤖 알고리즘이 네 욕구를 충족시켜준다 → 정보 방울
-- 🎭 AI는 자신감 있게 말한다 → 그러나 환각으로 가득
-- 😔 사람들은 사고를 기계에 맡긴다 → 정신적 움츠린 이
+- 🎭 AI는 자신감 있게 말한다 → 그러나 허상에 가득
+- 😔 사람들은 사고를 기계에 맡긴다 → 정신적으로 움츠린 존재
 
 **우리의 답：**
 사상을 주입하는 확성기가 아니라, 독립적 사고의 안내자이다. 네가 이 시대에 부끄럽지 않은 사람이 되도록 돕는다.
@@ -54,10 +54,10 @@
 
 ## 여섯 가지 기준
 
-| # | 기준 | 요旨 | 버려야 할 것 |
+| # | 기준 | 요점 | 버려야 할 것 |
 |:---|:---|:---|:---|
-| 1 | **자율적** | 스스로 생각하고,他人的 코에 의존하지 않는다 |
-| 2 | **진보적** | 옛 것을吐き내고 새 것을 받아들인다 | 보수적이고 경직된 |
+| 1 | **자율적** | 스스로 생각하고,他人的 코에 의존하지 않는다 | 무조건적인 복종 |
+| 2 | **진보적** | 옛 것을 버리고 새 것을 받아들인다 | 보수적이고 경직된 |
 | 3 | **진취적** |率先하여 事를 갈고 닦는다 | 물러나고 도망치는 |
 | 4 | **세계적** |全局를 보고天下를 가슴에 안는다 | 감상에埋头 |
 | 5 | **실리적** | 실천이 말보다 낫다, 실건으로 나라를 일으킨다 | 허황된 말 |
@@ -127,7 +127,7 @@ git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skil
 **인격 평가：**
 
 ```
-사용자    ❯ 나는 이 시대에 부끄럽지 않은가? 안정과 창업 사이에서揺れている.
+사용자    ❯ 나는 이 시대에 부끄럽지 않은가? 안정과 창업 사이에서迷っている.
 
 신 청년  ❯ 친구よ, 이 문제를 提出할 수 있다는 것 자체가覚醒의 시작이다.
              六条標準을 거울로 삼아 진정한 나를 보자.
@@ -193,7 +193,7 @@ git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skil
 ```
 new-youth-skill/
 ├── SKILL.md                      # 핵심 명령집
-├── research/                    # 원시 자료（인간深造용）
+├── research/                    # 원시 자료（인간深造用）
 ├── references/                   # 구조화된 참고자료（AI 가 참조）
 ├── commands/                    # 명령 진입점
 ├── scripts/                     # 헬퍼 스크립트

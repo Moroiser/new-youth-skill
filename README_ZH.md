@@ -14,10 +14,10 @@
 <p align="center">🌟 *"青年如初春，如朝日，如百卉之萌动，如利刃之新发于硎，人生最可宝贵之时期也。"*</p>
 
 <p align="center">
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+<a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.9%2B-blue.svg" alt="Python 3.9+"/></a>
+<a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-Skill-purple.svg" alt="Claude Code"/></a>
+<a href="https://github.com/anthropics/agent-skill-standard"><img src="https://img.shields.io/badge/AgentSkills-Standard-green.svg" alt="AgentSkills"/></a>
 </p>
 
 <p align="center"><i>以青春之我，创建青春之家庭，青春之国家，青春之民族。</i></p>

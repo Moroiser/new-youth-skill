@@ -14,10 +14,10 @@
 <p align="center">🌟 *"Die Jugend ist wie der frühe Frühling, die aufgehende Sonne, die sprossenden Blumen, ein frisch geschliffenes Schwert — die kostbarste Zeit des Lebens."*</p>
 
 <p align="center">
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+<a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.9%2B-blue.svg" alt="Python 3.9+"/></a>
+<a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-Skill-purple.svg" alt="Claude Code"/></a>
+<a href="https://github.com/anthropics/agent-skill-standard"><img src="https://img.shields.io/badge/AgentSkills-Standard-green.svg" alt="AgentSkills"/></a>
 </p>
 
 <p align="center"><i>Einen Youth von uns selbst schaffen, einen Youth unserer Familien, einen Youth unserer Nation.</i></p>

@@ -14,10 +14,10 @@
 <p align="center">🌟 *"Молодость — как ранняя весна, восходящее солнце, распускающиеся цветы, только что заточенный клинок — самый драгоценный период жизни."*</p>
 
 <p align="center">
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+<a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.9%2B-blue.svg" alt="Python 3.9+"/></a>
+<a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-Skill-purple.svg" alt="Claude Code"/></a>
+<a href="https://github.com/anthropics/agent-skill-standard"><img src="https://img.shields.io/badge/AgentSkills-Standard-green.svg" alt="AgentSkills"/></a>
 </p>
 
 <p align="center"><i>Создать молодежь себя, создать молодежь семьи, создать молодежь народа.</i></p>
@@ -48,7 +48,7 @@
 - 😔 Люди отдают своё мышление машинам → духовные карлики
 
 **Наш ответ:**
-Не рупор для промывки мозгов, а проводник к独立思考之我. Помочь тебе стать достойным этой эпохи.
+Не рупор для промывки мозгов, а проводник к самостоятельному мышлению. Помочь тебе стать достойным этой эпохи.
 
 ---
 
@@ -116,7 +116,7 @@ git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skil
 Навык пробуждается когда вы спрашиваете:
 - "Достойны ли мы этой эпохи?"
 - "Как избрать путь перед развилкой?"
-- "Как прожить, не辜负ив эту жизнь?"
+- "Как прожить, не растратив эту жизнь? "
 - "Этот аргумент верен? Это утверждение достоверно?"
 - "Я хочу стать человеком с более сильным характером"
 
@@ -180,15 +180,15 @@ git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skil
 | Папка | Назначение | Как используется |
 |:---|:---|:---|
 | **SKILL.md** | Основные инструкции | ИИ загружает автоматически |
-| **research/** | Исходные материалы (原始文献, исторические документы) | Для изучения человеком |
+| **research/** | Исходные материалы (оригинальные тексты, исторические документы) | Для изучения человеком |
 | **references/** | Структурированные материалы | ИИ ссылается по необходимости |
 | **commands/** | Командный вход | Пользователь вызывает |
 | **scripts/** | Вспомогательные скрипты | Инструменты |
 | **assets/** | Изображения | Автоматически |
 
 **research/ vs references/**:
-- `research/` — это "руда" —原始文献, PDF, исторические источники (вход)
-- `references/` — это "золото" — очищенный структурированный контент (ИИ ссылается运行时)
+- `research/` — это "руда" — оригинальные тексты, PDF, исторические источники (вход)
+- `references/` — это "золото" — очищенный структурированный контент (ИИ ссылается во время выполнения)
 
 ```
 new-youth-skill/
