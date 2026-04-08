@@ -10,7 +10,7 @@ echo "========================================"
 echo ""
 
 # Check if SKILL.md exists
-if [ -f "skills/new-youth/SKILL.md" ]; then
+if [ -f "SKILL.md" ]; then
     echo "✅ SKILL.md found"
 else
     echo "❌ SKILL.md not found"
@@ -18,7 +18,7 @@ else
 fi
 
 # Check if SKILL.md has valid frontmatter
-if head -5 skills/new-youth/SKILL.md | grep -q "^---"; then
+if head -5 SKILL.md | grep -q "^---"; then
     echo "✅ Frontmatter detected"
 else
     echo "❌ Invalid frontmatter"
@@ -28,7 +28,7 @@ fi
 # Check required fields in frontmatter
 required_fields=("name:" "description:" "version:")
 for field in "${required_fields[@]}"; do
-    if grep -q "$field" skills/new-youth/SKILL.md; then
+    if grep -q "$field" SKILL.md; then
         echo "✅ Field '$field' found"
     else
         echo "❌ Field '$field' missing"
@@ -61,7 +61,7 @@ else
 fi
 
 # Check references directory
-if [ -d "skills/new-youth/references" ]; then
+if [ -d "references" ]; then
     echo "✅ references/ directory found"
 else
     echo "⚠️ references/ directory not found (optional)"
@@ -73,7 +73,8 @@ echo "✅ Validation complete!"
 echo "========================================"
 echo ""
 echo "To use with Claude Code:"
-echo "  claude --plugin-dir ."
+echo "  mkdir -p .claude/skills"
+echo "  git clone https://github.com/Moroiser/new-youth-skill.git .claude/skills/new-youth-skill"
 echo ""
 echo "To use with OpenClaw:"
-echo "  Copy skills/new-youth/ to your skills directory"
+echo "  git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skills/new-youth-skill"

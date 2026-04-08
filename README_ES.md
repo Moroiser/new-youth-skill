@@ -1,67 +1,86 @@
-# 新青年 La Jeunesse | New Youth
-
 <p align="center">
   <img src="assets/logo.png" alt="New Youth La Jeunesse" width="400"/>
 </p>
 
-<p align="center"><strong>Nuevo Juventud.skill</strong></p>
+# Nuevo Juventud.skill
 
-> *"La jeunesse pour la société, c'est comme des cellules fraîches et actives dans le corps humain."*
+<p align="center">
 
-> *"青年之于社会，犹新鲜活泼细胞之在人身。"*
+> *"La juventud para la sociedad es como células frescas y activas en el cuerpo humano. El metabolismo — los elementos rancios y decadentes se eliminan constantemente de forma natural, dejando espacio para los frescos y activos."*
 > — Chen Duxiu, "A la Juventud" (1915)
 
 <p align="center">🌟 *"La juventud es como la primavera temprana, el sol naciente, las flores que brotan, una espada recién afilada — el período más precioso de la vida."*</p>
 
-<p align="center">[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)</p>
-<p align="center">[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)</p>
-<p align="center">[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)</p>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
+[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
 
-<p align="center"><em>Una skill para despertar — ayudando a los usuarios a convertirse en pensadores independientes en la era de la IA.</em></p>
-
----
-
-Basada en la revista *La Jeunesse* (Nueva Juventud), fundada por Chen Duxiu en Shanghai en 1915 — la voz del Movimiento de la Nueva Cultura de China, que introdujo Democracia y Ciencia a toda una generación.
-
-[English](README.md) · [中文](README_ZH.md) · [日本語](README_JA.md) · **Español** · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md)
+*Crear un Youth de nosotros mismos, un Youth de nuestras familias, un Youth de nuestra nación.*
 
 ---
 
-## Why This Exists
+<div align="center">
 
-**The problem:**
-- Los algoritmos deciden lo que ves → burbujas de información
-- El contenido generado por IA suena seguro pero puede estar equivocado → crisis de alucinación
-- La gente externaliza su pensamiento a máquinas → pérdida de agencia
+[¿Por qué existe esto?](#por-qué-existe-esto) · [Seis Estándares](#seis-estándares) · [Funciones principales](#funciones-principales) · [Instalación](#instalación) · [Uso](#uso) · [Demo](#demo) · [Estructura del proyecto](#estructura-del-proyecto)
 
-**The answer:**
-No es una habilidad que te dice qué pensar. Es una habilidad que te ayuda a pensar por ti mismo — y convertirte en alguien de quien estés orgulloso.
+</div>
 
-| # | Standard | What It Means | Opposite |
+---
+
+Basada en la revista *La Jeunesse* (Nueva Juventud), fundada por Chen Duxiu en Shanghai en 1915 — la voz del Movimiento de la Nueva Cultura chino, que trajo Democracia y Ciencia a toda una generación.
+
+[English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · **Español**
+
+---
+
+## ¿Por qué existe esto?
+
+**Los males de nuestra época:**
+- 🤖 Los algoritmos te dan lo que quieres → burbujas de información
+- 🎭 La IA habla con confianza → pero llena de alucinaciones
+- 😔 La gente externaliza su pensamiento a máquinas → enanos espirituales
+
+**Nuestra respuesta:**
+No es un megáfono para la indoctrización — sino una guía para el pensamiento independiente. Para ayudarte a convertirte en alguien digno de esta época.
+
+---
+
+## Seis Estándares
+
+| # | Estándar | Esencia | Rechazar |
 |:---|:---|:---|:---|
-| 1 | **Autónomo** | Piensa por ti mismo, no sigas ciegamente | Esclavo |
-| 2 | **Progresista** | Abraza el cambio, sigue aprendiendo | Conservador |
-| 3 | **Emprendedor** | Toma acción, no esperes | Retirado |
-| 4 | **Global** | Mira más allá de tu burbuja | Aislacionista |
-| 5 | **Pragmático** | Los resultados importan, no solo hablar | Ritualista |
-| 6 | **Científico** | Hechos primero, verifica todo | Imaginativo |
+| 1 | **Autónomo** | Piensa por ti mismo, no sigas ciegamente | Esclavitud de opinión |
+| 2 | **Progresista** | Abraza el cambio, evoluciona con el tiempo | Conservadurismo rígido |
+| 3 | **Emprendedor** | Toma la iniciativa, forja tu camino | Retirada pasiva |
+| 4 | **Global** | Ve el panorama completo, corazón para todos | Provincialismo |
+| 5 | **Pragmático** | Las acciones hablan más fuerte que las palabras | Retórica vacía |
+| 6 | **Científico** | Busca la verdad a través de los hechos | Especulación salvaje |
 
 ---
 
-## What It Does
+## Funciones principales
 
-| Feature | When to Use |
-|:---|:---|
-| **Evaluación de Personalidad** | "¿Soy una Nueva Juventud?" — obtén tu Índice |
-| **Soporte de Decisión** | "¿Debería elegir A o B?" — reflexiona a fondo |
-| **Revisión de Contenido** | "¿Este argumento se sostiene?" — verifica la lógica |
-| **Crecimiento Diario** | "¿Qué debería hacer hoy?" — ponte en movimiento |
-| **Cambio de Perspectiva** | "¿Otra forma de ver esto?" — rompe tu burbuja |
-| **Traducción a Acción** | "Sé que debería, pero ¿cómo?" — obtén pasos concretos |
+| Función | Pregunta vital | Qué hace |
+|:---|:---|:---|
+| **Evaluación de personalidad** | "¿Soy digno de esta época?" | Análisis de seis dimensiones |
+| **Guía de decisión** | "¿Qué camino tomar?" | Pensamiento de seis pasos |
+| **Examen de puntos de vista** | "¿Esta afirmación es válida?" | Auditoría de lógica |
+| **Práctica diaria** | "¿Qué hacer hoy?" | Unidad de conocimiento y acción |
+| **Expansión de perspectivas** | "¿Otras vistas?" | Superación del autoengaño |
+| **Implementación de acciones** | "¿Cómo ejecutar?" | De la idea a la acción |
 
 ---
 
 ## Instalación
+
+### Requisitos del sistema
+
+- **Python**: 3.9+ (para scripts opcionales)
+- **Plataforma**: Windows / macOS / Linux
+- **Compatible**: Claude Code, OpenClaw, Cursor, Coze y otras plataformas Agent Skills
+
+> Nota: Esta skill es texto/diálogo, no requiere APIs externas.
 
 ### Claude Code
 
@@ -73,48 +92,113 @@ git clone https://github.com/Moroiser/new-youth-skill.git .claude/skills/new-you
 ### OpenClaw
 
 ```bash
-git clone https://github.com/Moroiser/new-youth-skill.git ~/.openclaw/workspace/skills/new-youth-skill
+git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skills/new-youth-skill
 ```
 
 ---
 
 ## Uso
 
-En Claude Code, escribe:
+### Comando
 
 ```
 /新青年
 ```
 
-O describe tu necesidad — la habilidad se activará automáticamente cuando sea relevante.
+### Cuándo se activa
+
+La skill despierta cuando preguntas:
+- "¿Soy digno de esta época?"
+- "¿Cómo elegir ante una encrucijada?"
+- "¿Cómo vivir sin辜负 esta vida?"
+- "¿Esta afirmación es válida? ¿Esta declaración es creíble?"
+- "Quiero convertirme en alguien más remarquable"
 
 ---
 
-## The Origin
+## Demo
 
-*La Jeunesse* (Nueva Juventud) fue fundada en Shanghai, 1915, por Chen Duxiu. Se convirtió en el grito de guerra de una generación que buscaba modernidad — exigiendo Democracia y Ciencia cuando China más los necesitaba.
+**Evaluación de personalidad:**
 
-Esta habilidad destila ese espíritu en una herramienta para la era de la IA: no para predicar, sino para despertar.
+```
+Usuario    ❯ ¿Soy digno de esta época? Vacilo entre estabilidad y emprendimiento.
+
+Nueva Juventud ❯ Amigo, que hagas esta pregunta marca el comienzo del despertar.
+             Usemos los seis estándares como espejo para ver tu verdadero yo.
+             Por favor, evalúate en seis dimensiones (1-5):
+             ① Autónomo — ¿Aceptas a menudo las opiniones de otros como propias?
+             ② Progresista — ¿Abrazas el cambio o te aferras a lo antiguo?
+             ③ Emprendedor — ¿Esperas o tomas la iniciativa?
+             …
+```
+
+**Guía de decisión:**
+
+```
+Usuario    ❯ Ante las corrientes de nuestra época, ¿dónde debo ir?
+
+Nueva Juventud ❯ Amigo, ¿qué puede hacer el individuo ante las corrientes de nuestra época?
+             El método de seis pasos disipará la niebla:
+             Paso uno — Autónomo: ¿Qué desea tu corazón verdaderamente?
+             No el salario, no el estatus — ¿qué tipo de persona quieres convertirte?
+```
 
 ---
 
-## Project Structure
+## Índice de Nueva Juventud
+
+**Autoevaluación de seis dimensiones** (1-5 cada una):
+
+| Dimensión | 1 | 3 | 5 |
+|:---|:---|:---|:---|
+| Autónomo | Sigue a la multitud | A veces independiente | Pensador independiente |
+| Progresista | Rígido | Adaptación pasiva | Renovación proactiva |
+| Emprendedor | Espera pasiva | Acción moderada | Siempre adelante |
+| Global | Provincial | A veces rompedor | Visión panorámica |
+| Pragmático | Solo hablar | Resultados ocasionales | Progreso estable |
+| Científico | Conjetura subjetiva | Verificación ocasional | Investigación sistemática |
+
+**Niveles:**
+
+| Total | Nivel |
+|:---|:---|
+| 27-30 | 🌱 Modelo de Nueva Juventud |
+| 24-26 | 🌿 Cercano a Nueva Juventud |
+| 18-23 | 🌾 Necesita refinamiento |
+| 6-17 | 🌰 Necesita despertar |
+
+---
+
+## Estructura del proyecto
+
+| Carpeta | Propósito | Cómo se usa |
+|:---|:---|:---|
+| **SKILL.md** | Instrucciones core | La IA carga automáticamente |
+| **research/** | Materiales primas (textos originales, documentos históricos) | Para estudio humano |
+| **references/** | Contenido estructurado refinado | La IA referencia según necesidad |
+| **commands/** | Punto de entrada manual | El usuario invoca |
+| **scripts/** | Scripts auxiliares (opcional) | Herramientas |
+| **assets/** | Imágenes | Automático |
+
+**research/ vs references/**:
+- `research/` es "mineral" —文献 original, PDFs, fuentes históricas (entrada)
+- `references/` es "oro" — contenido estructurado refinado (la IA referencia运行时)
 
 ```
 new-youth-skill/
-├── SKILL.md
-├── skills/new-youth/
-│   └── SKILL.md
-├── references/
-├── commands/
-├── scripts/
-└── README.md (7 idiomas)
+├── SKILL.md                      # Instrucciones core
+├── research/                    # Materiales primas
+├── references/                   # Referencias estructuradas
+├── commands/                    # Punto de entrada
+├── scripts/                     # Scripts auxiliares
+├── assets/                      # Imágenes
+└── README.md (8 idiomas)
 ```
 
 ---
 
-## Licencia
+## Origen
 
----
+En 1915, Chen Duxiu fundó *New Youth* en Shanghai, levantó las banderas de Democracia y Ciencia, convirtiéndose en el estandarte del Movimiento de la Nueva Cultura.
 
-🌱
+Esta skill destila ese espíritu en un arma de pensamiento para la era de la IA: no predicar, sino despertar.

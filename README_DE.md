@@ -1,67 +1,86 @@
-# 新青年 La Jeunesse | New Youth
-
 <p align="center">
   <img src="assets/logo.png" alt="New Youth La Jeunesse" width="400"/>
 </p>
 
-<p align="center"><strong>Neue Jugend.skill</strong></p>
+# Neue Jugend.skill
 
-> *"La jeunesse pour la société, c'est comme des cellules fraîches et actives dans le corps humain."*
+<p align="center">
 
-> *"青年之于社会，犹新鲜活泼细胞之在人身。"*
+> *"Die Jugend für die Gesellschaft ist wie frische, aktive Zellen im menschlichen Körper. Der Stoffwechsel — veraltete und faule Elemente werden ständig auf natürliche Weise eliminiert und machen Platz für das Frische und Aktive."*
 > — Chen Duxiu, "Aufruf an die Jugend" (1915)
 
 <p align="center">🌟 *"Die Jugend ist wie der frühe Frühling, die aufgehende Sonne, die sprossenden Blumen, ein frisch geschliffenes Schwert — die kostbarste Zeit des Lebens."*</p>
 
-<p align="center">[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)</p>
-<p align="center">[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)</p>
-<p align="center">[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)</p>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
+[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
 
-<p align="center"><em>Eine Skill zum Erwecken — hilft Nutzern, in Zeiten der KI unabhängig zu denken.</em></p>
+*Einen Youth von uns selbst schaffen, einen Youth unserer Familien, einen Youth unserer Nation.*
+
+---
+
+<div align="center">
+
+[Warum gibt es das?](#warum-gibt-es-das) · [Sechs Standards](#sechs-standards) · [Kernfunktionen](#kernfunktionen) · [Installation](#installation) · [Verwendung](#verwendung) · [Demo](#demo) · [Projektstruktur](#projektstruktur)
+
+</div>
 
 ---
 
 Basierend auf der Zeitschrift *La Jeunesse* (Neue Jugend), gegründet von Chen Duxiu 1915 in Shanghai — die Stimme der chinesischen Neuen Kulturbewegung, die einer Generation Demokratie und Wissenschaft brachte.
 
-[English](README.md) · [中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · **Deutsch** · [Русский](README_RU.md) · [Français](README_FR.md)
+[English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Español](README_ES.md)
 
 ---
 
-## Why This Exists
+## Warum gibt es das?
 
-**The problem:**
-- Algorithmen bestimmen, was du siehst → Informationsblasen
-- KI-generierte Inhalte klingen selbstsicher, können aber falsch sein → Halluzinationskrise
-- Menschen lagern ihr Denken an Maschinen aus → Verlust von Handlungsfähigkeit
+**Die Übel unserer Zeit:**
+- 🤖 Algorithmen bedienen dich → Informationsblasen
+- 🎭 KI spricht mit Zuversicht → aber voller Halluzinationen
+- 😔 Menschen lagern ihr Denken an Maschinen aus → geistige Zwerge
 
-**The answer:**
-Keine Fähigkeit, die dir sagt, was du denken sollst. Eine Fähigkeit, die dir hilft, selbst zu denken — und ein Mensch zu werden, auf den du stolz sein kannst.
+**Unsere Antwort:**
+Kein Megafon für Indoktrination — sondern ein Führer für unabhängiges Denken. Um dir zu helfen, ein dieser Zeit würdiger Mensch zu werden.
 
-| # | Standard | What It Means | Opposite |
+---
+
+## Sechs Standards
+
+| # | Standard | Essenz | Verwerfen |
 |:---|:---|:---|:---|
-| 1 | **Autonom** | Denke selbst, folge nicht blind | Sklavisch |
-| 2 | **Fortschrittlich** | Umarme Veränderung, lerne weiter | Konservativ |
-| 3 | **Unternehmerisch** | Handle, warte nicht | Zurückziehend |
-| 4 | **Global** | Sieh über deine Blase hinaus | Isolationistisch |
-| 5 | **Pragmatisch** | Ergebnisse zählen, nicht nur reden | Ritualistisch |
-| 6 | **Wissenschaftlich** | Fakten zuerst, verifiziere alles | Schwärmerisch |
+| 1 | **Autonom** | Denke selbst, folge nicht blind | Sklaverei der Meinung |
+| 2 | **Fortschrittlich** | Umarme Veränderung, entwickle dich mit der Zeit | Starre Konservatismus |
+| 3 | **Unternehmerisch** | Erg-reifeInitiative, schmiede deinen Weg | Passiver Rückzug |
+| 4 | **Global** | Sieh das große Ganze, Herz für alle | Provinzialismus |
+| 5 | **Pragmatisch** | Taten sprechen lauter als Worte | Leeres Gerede |
+| 6 | **Wissenschaftlich** | Suche Wahrheit durch Fakten | Wilde Spekulation |
 
 ---
 
-## What It Does
+## Kernfunktionen
 
-| Feature | When to Use |
-|:---|:---|
-| **Persönlichkeitsbewertung** | "Bin ich ein Neue Jugend?" — erhalte deinen Index |
-| **Entscheidungsunterstützung** | "Sollte ich A oder B wählen?" — denke gründlich nach |
-| **Inhaltsüberprüfung** | "Hält dieses Argument?" — prüfe die Logik |
-| **Tägliches Wachstum** | "Was sollte ich heute tun?" — komm in Bewegung |
-| **Perspektivwechsel** | "Andere Sicht auf dies?" — durchbreche deine Blase |
-| **Übersetzung in Handlung** | "Ich weiß, ich sollte, aber wie?" — erhalte konkrete Schritte |
+| Funktion | Lebensfrage | Was sie tut |
+|:---|:---|:---|
+| **Persönlichkeitsbewertung** | "Bin ich dieser Zeit würdig?" | Sechs-Dimension-Analyse |
+| **Entscheidungsleitfaden** | "Welchen Weg einschlagen?" | Sechs-Schritte-Denken |
+| **Standpunktprüfung** | "Ist diese Behauptung gültig?" | Logik-Audit |
+| **Tägliche Praxis** | "Was heute tun?" | Einheit von Wissen und Handeln |
+| **Perspektiverweiterung** | "Andere Blickwinkel?" | Überwindung des Selbstbetrugs |
+| **Handlungsumsetzung** | "Wie ausführen?" | Von der Idee zur Handlung |
 
 ---
 
 ## Installation
+
+### Systemanforderungen
+
+- **Python**: 3.9+ (für optionale Hilfsskripte)
+- **Plattform**: Windows / macOS / Linux
+- **Kompatibel**: Claude Code, OpenClaw, Cursor, Coze und andere Agent-Skills-Plattformen
+
+> Hinweis: Diese Skill ist Text/Dialog-basiert, keine externen APIs erforderlich.
 
 ### Claude Code
 
@@ -73,48 +92,113 @@ git clone https://github.com/Moroiser/new-youth-skill.git .claude/skills/new-you
 ### OpenClaw
 
 ```bash
-git clone https://github.com/Moroiser/new-youth-skill.git ~/.openclaw/workspace/skills/new-youth-skill
+git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skills/new-youth-skill
 ```
 
 ---
 
 ## Verwendung
 
-Gib in Claude Code ein:
+### Befehl
 
 ```
 /新青年
 ```
 
-Oder beschreibe dein Anliegen — die Fähigkeit wird automatisch aktiviert, wenn relevant.
+### Wann aktiviert
+
+Die Skill erwacht, wenn du fragst:
+- "Bin ich dieser Zeit würdig?"
+- "Wie soll ich mich bei einer Weggabelung entscheiden?"
+- "Wie kann ich dieses Leben nicht enttäuschen?"
+- "Ist diese Behauptung gültig? Ist diese Aussage glaubwürdig?"
+- "Ich will ein besserer, tatkräftigerer Mensch werden"
 
 ---
 
-## The Origin
+## Demo
 
-*La Jeunesse* (Neue Jugend) wurde 1915 in Shanghai von Chen Duxiu gegründet. Sie wurde zum Schlachtruf einer Generation, die nach Modernität suchte — die Demokratie und Wissenschaft forderte, als China sie am meisten brauchte.
+**Persönlichkeitsbewertung:**
 
-Diese Fähigkeit destilliert diesen Geist in ein Werkzeug für das KI-Zeitalter: nicht zum Predigen, sondern zum Erwecken.
+```
+Nutzer    ❯ Bin ich dieser Zeit würdig? Ich schwanke zwischen Stabilität und Unternehmertum.
+
+Neue Jugend ❯ Freund, dass du diese Frage stellst, markiert den Beginn des Erwachens.
+             Nutzen wir die sechs Standards als Spiegel, um dein wahres Ich zu sehen.
+             Bitte bewerte dich auf sechs Dimensionen (1-5):
+             ① Autonom — Akzeptierst du oft die Meinungen anderer als deine eigenen?
+             ② Fortschrittlich — Umarmst du Veränderung oder klammerst du dich ans Alte?
+             ③ Unternehmerisch — Wartest du oder ergreifst du Initiative?
+             …
+```
+
+**Entscheidungsleitfaden:**
+
+```
+Nutzer    ❯ Angesichts der Strömungen unserer Zeit, wohin soll ich gehen?
+
+Neue Jugend ❯ Freund, was kann der Einzelne angesichts der Strömungen unserer Zeit tun?
+             Die Sechs-Schritte-Methode wird den Nebel lichten:
+             Schritt eins — Autonom: Was begehrt dein Herz wirklich?
+             Nicht Gehalt, nicht Status — was für ein Mensch willst du werden?
+```
 
 ---
 
-## Project Structure
+## Neue-Jugend-Index
+
+**Sechs-Dimension-Selbstbewertung** (je 1-5):
+
+| Dimension | 1 | 3 | 5 |
+|:---|:---|:---|:---|
+| Autonom | Folgt der Masse | Manchmal unabhängig | Unabhängiger Denker |
+| Fortschrittlich | Eingefahren | Passive Anpassung | Proaktive Erneuerung |
+| Unternehmerisch | Passives Warten | Mäßiges Handeln | Immer vorwärts |
+| Global | Provinziel | Manchmal ausbrechend | Panoramisches Sehen |
+| Pragmatisch | Nur Gerede | Gelegentliche Ergebnisse | Stetige Fortschritte |
+| Wissenschaftlich | Subjektive Mutmaßung | Gelegentliche Verifizierung | Systematische Untersuchung |
+
+**Stufen:**
+
+| Gesamt | Stufe |
+|:---|:---|
+| 27-30 | 🌱 Neues Jugend-Vorbild |
+| 24-26 | 🌿 Auf dem Weg zur Neuen Jugend |
+| 18-23 | 🌾 Braucht Verfeinerung |
+| 6-17 | 🌰 Braucht Erweckung |
+
+---
+
+## Projektstruktur
+
+| Ordner | Zweck | Wie verwendet |
+|:---|:---|:---|
+| **SKILL.md** | Kernanweisungen | KI lädt automatisch |
+| **research/** | Rohmaterialien (Originaltexte, historische Dokumente) | Für menschliches Studium |
+| **references/** | Verfeinertes strukturiertes Material | KI referenziert bei Bedarf |
+| **commands/** | Manuelle Befehlseinstiegspunkte | Benutzer ruft auf |
+| **scripts/** | Hilfsskripte (optional) | Werkzeuge |
+| **assets/** | Bilder | Automatisch |
+
+**research/ vs references/**:
+- `research/` ist "Erz" — Originalquellen, PDFs, historische Quellen (Eingabe)
+- `references/` ist "Gold" — verfeinertes strukturiertes Material (KI referenziert运行时)
 
 ```
 new-youth-skill/
-├── SKILL.md
-├── skills/new-youth/
-│   └── SKILL.md
-├── references/
-├── commands/
-├── scripts/
-└── README.md (7 Sprachen)
+├── SKILL.md                      # Kernanweisungen
+├── research/                    # Rohmaterialien
+├── references/                   # Strukturierte Referenzen
+├── commands/                    # Befehlseinstieg
+├── scripts/                     # Hilfsskripte
+├── assets/                      # Bilder
+└── README.md (8 Sprachen)
 ```
 
 ---
 
-## Lizenz
+## Ursprung
 
----
+1915 gründete Chen Duxiu in Shanghai *New Youth*, erhob die Banner Demokratie und Wissenschaft, wurde zum Banner der Neuen Kulturbewegung.
 
-🌱
+Diese Skill destilliert diesen Geist in eine Denkwaffe für das KI-Zeitalter: nicht predigen, sondern erwecken.

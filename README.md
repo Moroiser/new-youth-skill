@@ -1,69 +1,86 @@
-# 新青年 La Jeunesse | New Youth
-
 <p align="center">
   <img src="assets/logo.png" alt="New Youth La Jeunesse" width="400"/>
 </p>
 
-<p align="center"><strong>New Youth.skill</strong></p>
+# New Youth.skill
 
-> *"青年之于社会，犹新鲜活泼细胞之在人身。"*
-> — 陈独秀《敬告青年》（1915）
+<p align="center">
 
-> *"La jeunesse pour la société, c'est comme des cellules fraîches et actives dans le corps humain."*
+> *"Youth to society is like fresh, active cells in the human body. Metabolism — stale and decaying elements are constantly being naturally eliminated, making room for the fresh and active."*
+> — Chen Duxiu, "A Call to Youth" (1915)
 
-<p align="center">🌟 *"青年如初春，如朝日，如百卉之萌动，如利刃之新发于硎，人生最可宝贵之时期也。"*</p>
+<p align="center">🌟 *"Youth is like early spring, like the morning sun, like a bud about to bloom, like a blade newly sharpened — the most precious time of life."*</p>
 
-<p align="center">[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)</p>
-<p align="center">[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)</p>
-<p align="center">[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)</p>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
+[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
 
-<p align="center"><em>A skill for awakening — helping users become independent thinkers in the age of AI.</em></p>
-
----
-
-Every AI should think. Every user should think for themselves.
-
-Based on *La Jeunesse* (New Youth), founded by Chen Duxiu in Shanghai, 1915 — the journal that introduced Democracy and Science to a generation of Chinese youth.
-
-[English](README.md) · [中文](README_ZH.md) · [日本語](README_JA.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md)
+*To build a Youth of ourselves, a Youth of our families, a Youth of our nation.*
 
 ---
 
-## Why This Exists
+<div align="center">
 
-**The problem:**
-- Algorithms decide what you see → information bubbles
-- AI-generated content sounds confident but may be wrong → hallucination crisis
-- People outsource their thinking to machines → loss of agency
+[Why This Exists](#why-this-exists) · [Six Standards](#six-standards) · [Core Features](#core-features) · [Install](#install) · [Usage](#usage) · [Demo](#demo) · [Project Structure](#project-structure)
 
-**The answer:**
-Not a skill that tells you what to think. A skill that helps you think for yourself — and become a person you can be proud of.
+</div>
 
-| # | Standard | What It Means | Opposite |
+---
+
+Based on *La Jeunesse* (New Youth), founded by Chen Duxiu in Shanghai, 1915 — the journal that championed Democracy and Science during China's New Culture Movement.
+
+[English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Español](README_ES.md)
+
+---
+
+## Why This Exists?
+
+**The malaise of our age:**
+- 🤖 Algorithms feed you what you want → information cocoons
+- 🎭 AI speaks with confidence → yet满是幻觉 (hallucinations)
+- 😔 People outsource thinking to machines → spiritual dwarfs
+
+**Our answer:**
+Not a megaphone for indoctrination — but a guide for independent thought. To help you become someone worthy of this era.
+
+---
+
+## Six Standards
+
+| # | Standard | Core | Shun |
 |:---|:---|:---|:---|
-| 1 | **Autonomous** | Think for yourself, don't follow blindly | Slavery |
-| 2 | **Progressive** | Embrace change, keep learning | Conservatism |
-| 3 | **Enterprising** | Take action, don't wait | Withdrawal |
-| 4 | **Global** | See beyond your bubble | Isolationism |
-| 5 | **Pragmatic** | Results matter, not just talk | Ritualism |
-| 6 | **Scientific** | Facts first, verify everything | Imagination |
+| 1 | **Autonomous** | Think for yourself, no groupthink | Slavery to opinion |
+| 2 | **Progressive** | Embrace change, evolve with the times | Rigid conservatism |
+| 3 | **Enterprising** | Take initiative, forge your path | Passive retreat |
+| 4 | **Global** | See the whole picture, heart for all | Parochialism |
+| 5 | **Pragmatic** | Actions speak louder than words | Empty rhetoric |
+| 6 | **Scientific** | Seek truth through facts | Wild speculation |
 
 ---
 
-## What It Does
+## Core Features
 
-| Feature | When to Use |
-|:---|:---|
-| **Personality Assessment** | "Am I a New Youth?" — get your Youth Index |
-| **Decision Support** | "Should I choose A or B?" — think it through |
-| **Content Review** | "Does this argument hold?" — check the logic |
-| **Daily Growth** | "What should I do today?" — get moving |
-| **Perspective Shift** | "Any other way to look at this?" — break out of your bubble |
-| **Action Translation** | "I know I should, but how?" — get concrete steps |
+| Feature | The Vital Question | What It Does |
+|:---|:---|:---|
+| **Personality Assessment** | "Am I worthy of this era?" | Six-dimension透视 |
+| **Decision Guidance** | "Which path to take?" | Six-step inquiry |
+| **Viewpoint Examination** | "Is this claim valid?" | Logic audit |
+| **Daily Practice** | "What to do today?" | Know-do unity |
+| **Perspective Expansion** | "Other viewpoints?" | Break self-delusion |
+| **Action Implementation** | "How to execute?" | From idea to action |
 
 ---
 
-## Installation
+## Install
+
+### System Requirements
+
+- **Python**: 3.9+ (for optional helper scripts)
+- **Platform**: Windows / macOS / Linux
+- **Compatible**: Claude Code, OpenClaw, Cursor, Coze, and other Agent Skills platforms
+
+> Note: This skill is pure text/dialogue, no external APIs required.
 
 ### Claude Code
 
@@ -75,50 +92,113 @@ git clone https://github.com/Moroiser/new-youth-skill.git .claude/skills/new-you
 ### OpenClaw
 
 ```bash
-git clone https://github.com/Moroiser/new-youth-skill.git ~/.openclaw/workspace/skills/new-youth-skill
+git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skills/new-youth-skill
 ```
 
 ---
 
 ## Usage
 
-Type in Claude Code:
+### Command
 
 ```
 /新青年
 ```
 
-Or just describe what you need — the skill will activate when relevant.
+### When Triggered
+
+The skill awakens when you ask:
+- "Am I a New Youth worthy of this era?"
+- "How should I choose when facing a crossroads?"
+- "How to live without辜负 this life?"
+- "Is this argument valid? Is this claim credible?"
+- "I want to become someone with more spine"
 
 ---
 
-## The Origin
+## Demo
 
-*La Jeunesse* (New Youth) was founded in Shanghai, 1915, by Chen Duxiu. It became the rallying cry for a generation seeking modernity — demanding Democracy and Science when China needed both most.
+**Personality Assessment:**
 
-This skill distills that spirit into an AI-age tool: not to preach, but to awaken.
+```
+User      ❯ Am I worthy of this era? I waver between stability and entrepreneurship.
+
+New Youth ❯ Friend, that you ask this question itself marks the beginning of awakening.
+             Let us use the six standards as a mirror to see your true self.
+             Please self-rate six dimensions (1-5):
+             ① Autonomous — Do you often take others' opinions as your own?
+             ② Progressive — Do you embrace change or cling to the old ways?
+             ③ Enterprising — Do you wait and see, or do you take initiative?
+             …
+```
+
+**Decision Guidance:**
+
+```
+User      ❯ Faced with the currents of our time, where should I go?
+
+New Youth ❯ Friend, what can the individual do amidst the currents of our time?
+             Let the six-step method dispel the fog:
+             Step one — Autonomous: What does your heart truly crave?
+             Not salary, not status — what kind of person do you want to become?
+```
+
+---
+
+## Youth Index
+
+**Six-Dimension Self-Rating** (1-5 each):
+
+| Dimension | 1 | 3 | 5 |
+|:---|:---|:---|:---|
+| Autonomous | Follow the crowd | Occasionally independent | Independent thinker |
+| Progressive | Hidebound | Passive adaptation | Proactively renewal |
+| Enterprising | Passive waiting | Moderate action | Always forward |
+| Global | Parochial | Occasionally breaking out | Panoramic vision |
+| Pragmatic | All talk, no walk | Occasional results | Steady progress |
+| Scientific | Subjective conjecture | Occasional verification | Systematic inquiry |
+
+**Levels:**
+
+| Total | Level |
+|:---|:---|
+| 27-30 | 🌱 New Youth Model |
+| 24-26 | 🌿 Approaching New Youth |
+| 18-23 | 🌾 Needs Refinement |
+| 6-17 | 🌰 Needs Awakening |
 
 ---
 
 ## Project Structure
 
+| Folder | Purpose | How Used |
+|:---|:---|:---|
+| **SKILL.md** | Core instructions | AI auto-loads |
+| **research/** | Raw research materials (original texts, historical documents) | For human study |
+| **references/** | Refined structured content | AI references as needed |
+| **commands/** | Manual command entry | User invokes |
+| **scripts/** | Helper scripts (optional) | Tools |
+| **assets/** | Images | Auto |
+
+**research/ vs references/**:
+- `research/` is "ore" — raw literature, PDFs, historical sources (input)
+- `references/` is "gold" — refined structured content (AI references at runtime)
+
 ```
 new-youth-skill/
-├── SKILL.md
-├── skills/new-youth/
-│   └── SKILL.md
-├── references/
-├── commands/
-├── scripts/
-└── README.md (7 languages)
+├── SKILL.md                      # Core instructions
+├── research/                    # Raw materials (for human study)
+├── references/                   # Structured references (AI uses)
+├── commands/                    # Command entry
+├── scripts/                     # Helper scripts
+├── assets/                      # Images
+└── README.md (8 languages)
 ```
 
 ---
 
-## License
+## Origin
 
-MIT
+In 1915, Chen Duxiu founded *New Youth* in Shanghai, raising the twin banners of Democracy and Science, becoming the flag of the New Culture Movement.
 
----
-
-🌱
+This skill distills that spirit into an weapon of thought for the AI age: not to preach, but to awaken.

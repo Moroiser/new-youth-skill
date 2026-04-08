@@ -3,7 +3,7 @@ name: personality-assessment
 description: 用新青年六条标准进行人格评估，输出新青年指数
 ---
 
-读取并遵循 `skills/new-youth/SKILL.md` 中的人格评估部分。
+读取并遵循 `SKILL.md` 中的人格评估部分。
 
 当前问题：
 $ARGUMENTS

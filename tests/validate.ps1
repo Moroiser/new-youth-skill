@@ -9,7 +9,7 @@ Write-Host ""
 $ErrorActionPreference = "Stop"
 
 # Check if SKILL.md exists
-if (Test-Path "skills/new-youth/SKILL.md") {
+if (Test-Path "SKILL.md") {
     Write-Host "✅ SKILL.md found" -ForegroundColor Green
 } else {
     Write-Host "❌ SKILL.md not found" -ForegroundColor Red
@@ -17,7 +17,7 @@ if (Test-Path "skills/new-youth/SKILL.md") {
 }
 
 # Check if SKILL.md has valid frontmatter
-$content = Get-Content "skills/new-youth/SKILL.md" -Head 5 -ErrorAction SilentlyContinue
+$content = Get-Content "SKILL.md" -Head 5 -ErrorAction SilentlyContinue
 if ($content -match "^---") {
     Write-Host "✅ Frontmatter detected" -ForegroundColor Green
 } else {
@@ -26,7 +26,7 @@ if ($content -match "^---") {
 }
 
 # Check required fields in frontmatter
-$skillContent = Get-Content "skills/new-youth/SKILL.md" -Raw
+$skillContent = Get-Content "SKILL.md" -Raw
 $requiredFields = @("name:", "description:", "version:")
 foreach ($field in $requiredFields) {
     if ($skillContent -match $field) {
@@ -58,7 +58,7 @@ if (Test-Path "commands") {
 }
 
 # Check references directory
-if (Test-Path "skills/new-youth/references") {
+if (Test-Path "references") {
     Write-Host "✅ references/ directory found" -ForegroundColor Green
 } else {
     Write-Host "⚠️ references/ directory not found (optional)" -ForegroundColor Yellow
@@ -71,6 +71,6 @@ Write-Host "========================================" -ForegroundColor Green
 Write-Host ""
 Write-Host "To use with Claude Code:" -ForegroundColor White
 Write-Host "  claude --plugin-dir ." -ForegroundColor Gray
-Write-Host "" -ForegroundColor White
+Write-Host ""
 Write-Host "To use with OpenClaw:" -ForegroundColor White
-Write-Host "  Copy skills/new-youth/ to your skills directory" -ForegroundColor Gray
+Write-Host "  Copy SKILL.md to your skills directory" -ForegroundColor Gray

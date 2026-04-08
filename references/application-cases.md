@@ -2,7 +2,7 @@
 
 > *"知责任者，大丈夫之始也；行责任者，大丈夫之终也。"* — 梁启超
 
-本目录收集新青年 skill 的典型使用场景，供 AI 执行时参考。完整版本详见 `skills/new-youth/references/application-cases.md`。
+本目录收集 new-youth-skill 的典型使用场景，供 AI 执行时参考。
 
 ---
 
@@ -209,5 +209,3 @@
 ```
 
 ---
-
-*完整应用场景详见 `skills/new-youth/references/application-cases.md`*

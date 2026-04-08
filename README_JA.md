@@ -1,66 +1,86 @@
-# 新青年 La Jeunesse | New Youth
-
 <p align="center">
   <img src="assets/logo.png" alt="New Youth La Jeunesse" width="400"/>
 </p>
 
-<p align="center"><strong>新青年.skill</strong></p>
+# 新青年.skill
 
-> *"La jeunesse pour la société, c'est comme des cellules fraîches et actives dans le corps humain."*
-> *"青年之于社会，犹新鲜活泼细胞之在人身。"*
+<p align="center">
+
+> *"青年之于社会，犹新鲜活泼细胞之在人身。新陈代谢，陈腐朽败者无时不在天然淘汰之途，与新鲜活泼者以空间之位置及时间之生命。"*
 > — 陳独秀『青年への告発』（1915）
 
 <p align="center">🌟 *"青年は初春に如く、朝日に如く、百卉の萌えるに如く、刃の硎に新ねむるに如し、人生最も宝中之時期なり。"*</p>
 
-<p align="center">[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)</p>
-<p align="center">[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)</p>
-<p align="center">[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)</p>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://claude.com/claude-code)
+[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green.svg)](https://github.com/anthropics/agent-skill-standard)
 
-<p align="center"><em>覚醒 — ユーザーがAI時代에도獨立した思考を維持するのを助ける。</em></p>
-
----
-
-陳独秀が1915年に上海で創刊した『La Jeunesse』（新青年）をベースとしています——中国新文化運動の喉舌であり、一代目に民主と科学を伝えた雜誌です。
-
-[English](README.md) · [中文](README_ZH.md) · **日本語** · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md)
+*青春の我を以て、青春の家庭を创建し、青春の国家を创建す。*
 
 ---
 
-## Why This Exists
+<div align="center">
 
-**The problem:**
-- アルゴリズムがあなたの見るものを決める → 情報の泡
-- AI生成コンテンツは自信满满だが間違っている可能性がある → 幻覚危機
-- 人々が思考を機械に外包する → 主体性の喪失
+[なぜこれが存在するのか？](#なぜこれが存在するのか) · [六つの基準](#六つの基準) · [コア機能](#コア機能) · [インストール](#インストール) · [使用方法](#使用方法) · [デモ](#デモ) · [プロジェクト構造](#プロジェクト構造)
 
-**The answer:**
-「どう思うべきか」を教えるスキルではありません。「自分で考える」手助けをし、あなたが生まれつき持つ思考能力を呼び覚ますスキルです。
+</div>
 
-| # | Standard | What It Means | Opposite |
+---
+
+陳独秀が1915年に上海で創刊した『La Jeunesse』（新青年）に基づく——中国新文化運動の旗手であり、一代目に民主と科学を伝えた。
+
+[English](README.md) · [中文](README_ZH.md) · [Русский](README_RU.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md) · [Deutsch](README_DE.md) · [Español](README_ES.md)
+
+---
+
+## なぜこれが存在するのか？
+
+**時代弊病：**
+- 🤖 アルゴリズムが投其所好 → 情報繭
+- 🎭 AI は言之凿凿 →满是幻觉
+- 😔 人は思考を外包 → 精神矮子
+
+**我々の答え：**
+思想灌输のメガホンではなく、獨立思考之引路人。君がこの時代に恥じない人間になるのを助ける。
+
+---
+
+## 六つの基準
+
+| # | 基準 | 要義 | 摒弃 |
 |:---|:---|:---|:---|
-| 1 | **自主的** | 自分で考え、盲従しない | 奴隷的 |
-| 2 | **進歩的** | 変化を受け入れ学び続ける | 保守的 |
-| 3 | **進取的** | 行動し待たない | 退隠的 |
-| 4 | **世界的** | 自分のバブルの外を見る | 鎖国的 |
-| 5 | **実利的** | 結果が重要、言うより行動 | 虚文的な |
-| 6 | **科学的な** | 事実第一、すべてを検証 | 想像的な |
+| 1 | **自主的** | 自分で考え、他人の鼻息に服さず | 奴隶性 |
+| 2 | **進歩的** | 吐故納新、時代と俱に前進 | 保守僵化 |
+| 3 | **進取的** | 敢えて人の先に立ち、事を磨く | 退缩逃避 |
+| 4 | **世界的** | 全体を見渡し、胸中に天下を抱く | 坐井観天 |
+| 5 | **実利的** | 行勝於言、実幹興邦 | 空談誤国 |
+| 6 | **科学的** | 实事求是、格物致知 | 主观臆断 |
 
 ---
 
-## What It Does
+## コア機能
 
-| Feature | When to Use |
-|:---|:---|
-| **人格評価** | 「私は新青年ですか？」— 新青年指数を取得 |
-| **意思決定支援** | 「AとBのどちらを選ぶべき？」— 深く考える |
-| **コンテンツレビュー** | 「この議論は成り立つ？」— 論理をチェック |
-| **毎日の成長** | 「今日何をすればいい？」— 行動を開始 |
-| **視点転換** | 「これを見る他の方法は？」— 思考の枠を超える |
-| **行動翻訳** | 「やるべきと分かるが、どうやる？」— 具体的なステップを得る |
+| 機能 | 魂之問 | 何をするか |
+|:---|:---|:---|
+| **人格評価** | "我无愧于此时代否？" | 六維洞察 |
+| **決意指引** | "路在何方？" | 六歩思弁 |
+| **观点审视** | "此言当真？" | 論理監査 |
+| **日課実践** | "今日何为？" | 知行合一 |
+| **視点延展** | "換位何解？" | 我執を破る |
+| **行動落实** | "何以践履？" | 空想到実践 |
 
 ---
 
-## Installation
+## インストール
+
+### システム要件
+
+- **Python**: 3.9+ (ヘルパースクリプト用)
+- **プラットフォーム**: Windows / macOS / Linux
+- **互換性**: Claude Code, OpenClaw, Cursor, Coze 等 Agent Skills プラットフォーム
+
+> 注：このスキルはテキスト/対話型、API不要。
 
 ### Claude Code
 
@@ -72,48 +92,113 @@ git clone https://github.com/Moroiser/new-youth-skill.git .claude/skills/new-you
 ### OpenClaw
 
 ```bash
-git clone https://github.com/Moroiser/new-youth-skill.git ~/.openclaw/workspace/skills/new-youth-skill
+git clone https://github.com/Moroiser/new-youth-skill ~/.openclaw/workspace/skills/new-youth-skill
 ```
 
 ---
 
 ## 使用方法
 
-Claude Codeで入力：
+### コマンド
 
 ```
 /新青年
 ```
 
-またはニーズを描述——スキルは関連するシーンで自動的に有効になります。
+### 発動条件
+
+次の場合に自動発動：
+- "我无愧于此时代否？"
+- "選択に迷うとき、どう処すべきか？"
+- "如何すれば此生不负えるか？"
+- "此論是否属实？此言是否有据？"
+- "私はより有為な人間になりたい"
 
 ---
 
-## The Origin
+## デモ
 
-1915年、陳独秀は上海で『La Jeunesse』（新青年）を創刊しました。この雜誌は中国新文化運動の旗印となり、一代目に民主（德先生）と科学（賽先生）を呼びかけました。
+**人格評価：**
 
-このスキルはその精神をAI時代のツールに凝縮したもの：説教ではなく、覚醒です。
+```
+ユーザー    ❯ 我无愧于此时代否？安定と創業の間で揺れている。
+
+新青年    ❯ 友人よ、この問題を提起できたこと自体が覚醒の始まり。
+             六条標準を鏡として、真の自分を見つめよう。
+             六維で自己評価してください（1-5点）：
+             ① 自主——人は皆の言葉を自分の言葉としていないか？
+             ② 進歩——変化を受け入れるか、旧套に固執するか？
+             ③ 进取——待つのか、自ら動くのか？
+             …
+```
+
+**決意指引：**
+
+```
+ユーザー    ❯ 時代の洪流に面して、私は何处へ進むべきか？
+
+新青年    ❯ 友人よ、時代の洪流の中で個体は如何にあるべきか？
+             六歩法を持って霧を晴らそう：
+             第一歩——自主：あなたの心が本当に望んでいるものは？
+             給与ではなく、地位ではなく——你は何者になりたいのか？
+```
 
 ---
 
-## Project Structure
+## 新青年指数
+
+**六維自己評価**（各1-5点）：
+
+| 次元 | 1点 | 3点 | 5点 |
+|:---|:---|:---|:---|
+| 自主 | 人云亦云 | 偶有主見 | 独立判断 |
+| 進歩 | 抱残守缺 | 被动応変 | 主动求新 |
+| 进取 | 消极待機 | 适度作為 | 永远向前 |
+| 世界 | 坐井観天 | 偶尔破圈 | 縦覧全局 |
+| 実利 | 空談誤事 | 偶有成果 | 行穏致遠 |
+| 科学 | 主观臆断 | 偶尔実証 | 格物致知 |
+
+**等級：**
+
+| 合計点 | 等級 |
+|:---|:---|
+| 27-30 | 🌱 新青年模範 |
+| 24-26 | 🌿 新青年に接近 |
+| 18-23 | 🌾 尚需精進 |
+| 6-17 | 🌰 亟需覚醒 |
+
+---
+
+## プロジェクト構造
+
+| フォルダ | 用途 | 使用方法 |
+|:---|:---|:---|
+| **SKILL.md** | コア命令集 | AI が自動読込 |
+| **research/** | 原始研究資料（原文、歴史文献） | 人間が深造用 |
+| **references/** | 構造化された参考資料 | AI が必要に応じて参照 |
+| **commands/** | 手動コマンド入口 | ユーザーが呼び出す |
+| **scripts/** | ヘルパースクリプト（オプション） | ツール |
+| **assets/** | 画像リソース | 自動 |
+
+**research/ vs references/**：
+- `research/` は"矿石"——原始文献、PDF、歴史資料（入力）
+- `references/` は"黄金"——精製された構造化コンテンツ（AI が実行時に参照）
 
 ```
 new-youth-skill/
-├── SKILL.md
-├── skills/new-youth/
-│   └── SKILL.md
-├── references/
-├── commands/
-├── scripts/
-└── README.md（7言語）
+├── SKILL.md                      # コア命令集
+├── research/                    # 原始資料（人間が深造用）
+├── references/                   # 構造化参考資料（AI が参照）
+├── commands/                    # コマンド入口
+├── scripts/                     # ヘルパースクリプト
+├── assets/                      # 画像
+└── README.md (8言語)
 ```
 
 ---
 
-## ライセンス
+## 起源
 
----
+1915年、陳独秀は上海で《新青年》を創刊、民主と科学の両大旗を揭げ、新文化運動の旗手となった。
 
-🌱
+このスキルはその精神を AI 時代の思想兵器に凝縮：説教せず、ただ覚醒させる。

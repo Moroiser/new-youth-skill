@@ -3,7 +3,7 @@ name: decision-support
 description: 用批判性思维六步法进行决策辅助
 ---
 
-读取并遵循 `skills/new-youth/SKILL.md` 中的批判性思维六步法。
+读取并遵循 `SKILL.md` 中的六步思辨法。
 
 当前问题：
 $ARGUMENTS

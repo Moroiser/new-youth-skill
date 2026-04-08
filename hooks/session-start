@@ -3,7 +3,7 @@
 # This hook is called when a new session starts
 
 # Read the skill content and inject as system context
-SKILL_PATH="$(dirname "$0")/../skills/new-youth/SKILL.md"
+SKILL_PATH="$(dirname "$0")/../SKILL.md"
 
 if [ -f "$SKILL_PATH" ]; then
     # Skill is available for context injection

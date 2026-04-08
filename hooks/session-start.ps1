@@ -1,7 +1,7 @@
 # Session start hook for new-youth-skill (Windows PowerShell)
 # This hook is called when a new session starts
 
-$SkillPath = Join-Path $PSScriptRoot "..\skills\new-youth\SKILL.md"
+$SkillPath = Join-Path $PSScriptRoot "..\SKILL.md"
 
 if (Test-Path $SkillPath) {
     # Skill is available for context injection
